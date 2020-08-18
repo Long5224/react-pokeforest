@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './assets/css/style.css'
+import './assets/css/carousel.scss'
+
+
 
 ReactDOM.render(
   <React.StrictMode>

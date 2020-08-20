@@ -1,0 +1,38 @@
+
+.Card {
+    margin-bottom: 10px;
+}
+
+.Card_img {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+.Card_img img {
+    width: 100%;
+}
+
+.Card_name {
+    padding-top: 15px;
+}
+
+.Card_name h5 {
+    color: #313131;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 145%;
+    text-transform: none;
+}
+
+.Card_types {
+    display: flex;
+}
+
+.Card_types .Card_type {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    font-size: 15px;  
+    padding: 0px 10px;
+    margin: 10px 10px 10px 0px;
+    width: 70px;
+    text-align: center;
+}

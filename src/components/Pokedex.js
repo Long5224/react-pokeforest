@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { getAllPokemon, getPokemon } from './pokemon'
+import Card from './Card/Card'
 
 function Pokedex() {
     const [pokemonData, setPokemonData] = useState([]);
@@ -28,9 +29,21 @@ function Pokedex() {
         );
         setPokemonData(_pokemonData);
     };
+    console.log(pokemonData);
     return (
         <div className="pokedex">
-            <div>{loading ? <h1>Loading... </h1> : <h1>Data is fetched</h1>}</div>
+            <div>{
+                loading ? <h1>Loading... </h1> : (
+                    <div className="container">
+                        <div className="row">
+                            {pokemonData.map((pokemon, i) => {
+                                return <Card key={i} pokemon={pokemon} />
+                            })}
+                        </div>
+                    </div>
+                )
+            }
+            </div>
         </div>
     )
 }

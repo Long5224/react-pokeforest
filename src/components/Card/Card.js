@@ -8,9 +8,9 @@ function Card({ pokemon }) {
     return (
         <div className="col-lg-3 col-md-4 col-sm-6 Card">
             <div className="Card_img">
-                <Link>
+                <a>
                     <img src={pokemon.sprites.front_default} alt={pokemon.name + 'photo'} />
-                </Link>
+                </a>
             </div>
             <div className="Card_name">
                 <h5>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h5>
@@ -31,6 +31,7 @@ function Card({ pokemon }) {
         </div>
     )
 }
+
 
 
 export default Card

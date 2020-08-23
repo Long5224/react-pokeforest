@@ -72,7 +72,7 @@ function App() {
                     </form>
                   </div>
                   <div className="modal-footer">
-                    <a to="#">Register</a>
+                    <a href="https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md">Register</a>
                     <button type="button" className="dropboxx" data-dismiss="modal">Close</button>
                     <button type="button" className="dropboxx2" data-dismiss="modal">Sign in</button>
                   </div>

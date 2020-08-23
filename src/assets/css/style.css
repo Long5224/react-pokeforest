@@ -520,3 +520,8 @@ a:hover {
     position: relative;
     width: 100%;
 }
+
+.pokedex .loadingMore {
+    text-align: center;
+    margin-top: 50px;
+}

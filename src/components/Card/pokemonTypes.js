@@ -16,6 +16,6 @@ const typeColors = {
     ice: '#51c4e7',
     poison: '#b97fc9',
     rock: '#a38c21',
-    water: '#4592c4'
+    water: '#4592c4',
 }
 export default typeColors;
